@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <style>
+      .logo-pojok{
+        position:absolute;
+        top:20px;
+        right: 20px;
+        width: 40px;
+      }
+    </style>
+<meta charset="UTF-8">
+<meta name ="viewport"
+content="width"= device-widht,
+initial-scale = 1.0">
+<title>Portofolio Tiara Alpiani</title>
+<link rel="icon" type=image/png" href="foto2.png">
+
+<style>
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing:
+  border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 50px 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .hero-text {
+            max-width: 600px;
+        }
+
+        .hero-text h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text h3 {
+            color: #dcdcdc;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 17px;
+            color: #f1f1f1;
+        }
+
+        .foto-profile {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid white;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        nav {
+            background-color: white;
+            padding: 15px 10%;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        section {
+            padding: 50px 10%;
+        }
+
+        .section-title {
+            font-size: 30px;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            border-left: 6px solid #3498db;
+            padding-left: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .card h4 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .card ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-box {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .skill-box h3 {
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+
+        .skill-box p {
+            color: #555;
+        }
+
+        .contact {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+        }
+
+        .contact .section-title {
+            color: white;
+            border-left: none;
+            padding-left: 0;
+        }
+
+        .contact p {
+            margin: 8px 0;
+        }
+
+        .contact a {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #1b2838;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                text-align: center;
+                justify-content: center;
+            }
+
+            .hero-text h1 {
+                font-size: 34px;
+            }
+
+            section {
+                padding: 35px 7%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="hero-text">
+            <h1>Tiara Alpiani</h1>
+            <h3>Mahasiswa Hukum Keluarga Islam | Tutor Mengaji | Desain Grafis</h3>
+            <p>
+                Saya adalah mahasiswa Hukum Keluarga Islam yang memiliki minat besar dalam bidang desain grafis,
+                fotografi, desain web, dan pengembangan web. Saya aktif dalam organisasi mahasiswa, khususnya
+                pada bidang media, publikasi, dokumentasi, dan pengelolaan media sosial.
+            </p>
+        </div>
+
+        <img src="foto1.jpg" alt="Foto Profil Tiara Alpiani" class="foto-profile">
+        <img src="foto2.png" alt="logo" class="logo-pojok">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+            <li><a href="#pengalaman">Pengalaman</a></li>
+            <li><a href="#kemampuan">Kemampuan</a></li>
+            <li><a href="#hobi">Hobi</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section id="tentang">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="card">
+            <p>
+                Saya merupakan mahasiswa semester 4 jurusan Hukum Keluarga yang memiliki minat di bidang
+                desain grafis dan fotografi. Sejak SMA, saya memiliki pengalaman dalam organisasi sebagai bagian
+                publikasi dan dokumentasi. Saat kuliah, saya terus mengembangkan bidang tersebut dengan mengikuti
+                beberapa organisasi mahasiswa dan aktif sebagai koordinator divisi media publikasi.
+            </p>
+        </div>
+    </section>
+
+    <section id="pendidikan">
+        <h2 class="section-title">Pendidikan</h2>
+
+        <div class="card">
+            <h3>Institut KH.Ahmad Sanusi Sukabumi</h3>
+            <h4>2022 - Sekarang</h4>
+            <p>S1 Hukum Keluarga Islam</p>
+        </div>
+
+        <div class="card">
+            <h3>SMA Al-Masthuriyah</h3>
+            <h4>2019 - 2022</h4>
+            <p>Jurusan IPA</p>
+        </div>
+    </section>
+
+    <section id="pengalaman">
+        <h2 class="section-title">Pengalaman Organisasi</h2>
+
+        <div class="card">
+            <h3>Himpunan Mahasiswa Hukum Keluarga Islam </h3>
+            <h4>Anggota Departemen intelektual Minat dan Bakat | 2025 - 2026</h4>
+            <ul>
+                <li>Mengambil peran dalam perencanaan program kerja himpunan.</li>
+                <li>Berhasil Mengadakan Seminar Hukum Himpunan.</li>
+               
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Duta Zakat Baznas Kota Sukabumi 2025 </h3>
+            <h4>Koordinator Media Publikasi | 2025 </h4>
+            <ul>
+                <li>Berperan dalam mengelola Sosial Media Baznaskota Sukabumi.</li>
+                <li>Membuat desain grafis sederhana untuk informasi.</li>
+                <li>Mengelola jadwal posting, caption, dan tagar untuk meningkatkan interaksi pengikut.</li>
+                <li>Menginfut data Zakat Fitarah Baznas Kota Sukabumi 2025.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Unit lembaga Pendidikan Non Formal (Pesantren) </h3>
+            <h4>Anggota Divisi Infokom | 2022 - Sekarang</h4>
+            <ul>
+                <li>Mengelola akun media sosial organisasi.</li>
+                <li>Melakukan perencanaan konten, riset konten, dan produksi konten.</li>
+                <li>Terlibat dalam program kerja tahunan berupa PHBI yang disaksikan lebih dari 200 orang.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="kemampuan">
+        <h2 class="section-title">Kemampuan</h2>
+
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Desain Grafis</h3>
+                <p>CorelDraw, Canva, Adobe Photoshop</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Desain Web</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Pengembangan Web</h3>
+                <p>PHP dan MySQL</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Media Sosial</h3>
+                <p>Perencanaan konten, caption, dokumentasi, dan penjadwalan posting.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobi">
+        <h2 class="section-title">Hobi</h2>
+
+        <div class="card">
+            <ul>
+                <li>Fotografi: mengambil dan mengedit foto alam serta potret.</li>
+                <li>Desain grafis: membuat ilustrasi dan karya seni digital.</li>
+                <li>Traveling: menjelajahi tempat baru dan mendokumentasikan pengalaman melalui fotografi.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="kontak" class="contact">
+        <h2 class="section-title">Kontak</h2>
+        <p>Email: <a href="mailto:tiaraalpiani928@gmail.com">tiaraalpiani928@gmail.com</a></p>
+        <p>Domisili: Kota Sukabumi</p>
+        <p> 
+        <a href="https://www.instagram.com/tiaraalpi_?igsh=MXVlY2ZvMmFiNmNtcg==" target="_blank"
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" 
+        width=" 30"
+        alt=" Instagram"
+        style=" verticial-align: middle;">
+          @tiaraalpi_
+        </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Tiara Alpiani. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+  </head>
+</html>
